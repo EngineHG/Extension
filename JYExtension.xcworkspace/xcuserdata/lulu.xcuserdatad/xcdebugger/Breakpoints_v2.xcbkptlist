@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A2F690D9-12FB-4B6E-8915-061188643856"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD85AD7A-D43E-4F66-B9EC-40E0237F09A7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JYExtension/Extension/JY+DefaultValue.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "False"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  uuid = "AD85AD7A-D43E-4F66-B9EC-40E0237F09A7 - 4eaab40c0183fd48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_BFF420EFE6D78E87F2F4A6BC4B864B52_func0"
+                  moduleName = "Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lulu/Desktop/CodeMan/Git/JYExtension/JYExtension/Extension/JY+DefaultValue.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "AD85AD7A-D43E-4F66-B9EC-40E0237F09A7 - 25d9b242f7137098"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in Extension):Swift.Bool.False.defaultValue.unsafeMutableAddressor : Swift.Bool"
+                  moduleName = "Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lulu/Desktop/CodeMan/Git/JYExtension/JYExtension/Extension/JY+DefaultValue.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C464BBF2-599C-4E2F-A357-A03C9525AAC5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JYExtension/Extension/JY+DefaultValue.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "True"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  uuid = "C464BBF2-599C-4E2F-A357-A03C9525AAC5 - 4eaab40c0193fee6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_BFF420EFE6D78E87F2F4A6BC4B864B52_func1"
+                  moduleName = "Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lulu/Desktop/CodeMan/Git/JYExtension/JYExtension/Extension/JY+DefaultValue.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "C464BBF2-599C-4E2F-A357-A03C9525AAC5 - f5859c8985a38343"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in Extension):Swift.Bool.True.defaultValue.unsafeMutableAddressor : Swift.Bool"
+                  moduleName = "Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lulu/Desktop/CodeMan/Git/JYExtension/JYExtension/Extension/JY+DefaultValue.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "453CAAF1-4860-4456-B6BD-2EEA77235183"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JYExtensionExample/JYExtensionExample/JY+DefaultValue.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "decode(_:forKey:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

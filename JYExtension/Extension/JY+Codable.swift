@@ -55,9 +55,9 @@ extension JY where Base == Data{
 	/// - Parameter type: 模型的类型，必须遵循Decodable
 	public func toModel<T>(_ type: T.Type) -> T? where T : Decodable{
 		
-		if let model: Decodable = try? JSONDecoder().decode(T.self, from: base){
+		if let model: T = try? JSONDecoder().decode(T.self, from: base){
 			
-			return model as? T
+			return model
 		}else {
 			
             return decodeFail(type)
