@@ -17,9 +17,6 @@ struct ContentView: View {
     
     private func test(){
         
-        let json = #"{"id": 12345, "title": "My First Video", "state": "reserved"}"#
-        
-        print(json.jy.toModel(Video.self))
     }
 }
 
@@ -29,16 +26,4 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct Video: Decodable {
-    enum State: String, Codable, DefaultValue {
-        case streaming
-        case archived
-        case unknown
-        static let defaultValue = Video.State.unknown
-    }
-    let id: Int
-    let title: String
-    @Default<Bool.False> var commentEnabled: Bool
-    @Default<Bool.True> var publicVideo: Bool
-    @Default<State> var state: State
-}
+
