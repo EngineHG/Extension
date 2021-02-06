@@ -42,10 +42,14 @@ public struct JY<Base> {
 
 public func JYPrint(_ items: Any..., fileName: String = #file, methodName: String = #function, lineNumber: Int = #line){
     
-    print("-------------------------------------------\n",
-        (fileName as NSString).lastPathComponent, "\n",
-        "行号:\(lineNumber)\n",
-        "方法:\(methodName)\n",
-        items,
-        "\n-------------------------------------------")
+    #if DEBUG
+    print("""
+        -------------------------------------------
+        \((fileName as NSString).lastPathComponent)
+        行号:\(lineNumber)
+        方法:\(methodName)
+        \(items)
+        -------------------------------------------
+        """)
+    #endif
 }

@@ -26,7 +26,14 @@ extension Default: Codable {
         let container = try decoder.singleValueContainer()
         wrappedValue = (try? container.decode(T.Value.self)) ?? T.defaultValue
     }
+    public func encode(to encoder: Encoder) throws {
+        try wrappedValue.encode(to: encoder)
+    }
 }
+
+extension Default: Equatable where T.Value: Equatable { }
+extension Default: Hashable where T.Value: Hashable { }
+
 
 extension KeyedDecodingContainer {
     public func decode<T>(_ type: Default<T>.Type, forKey key: Key) throws -> Default<T> where T: DefaultValue {
@@ -35,32 +42,45 @@ extension KeyedDecodingContainer {
 }
 
 //MARK: - 以下是定义的一些 DefaultValue
+
+
+///空数组
+///
+/// 声明方式
+///
+///     @Default<EmptyAry<T>>
+public struct EmptyAry<T>: DefaultValue where T: Codable{
+    public static var defaultValue: [T]{
+        return []
+    }
+}
+
 extension Bool{
     public enum False: DefaultValue {
-        public static let defaultValue = false
+        public static let defaultValue: Bool = false
     }
     public enum True: DefaultValue {
-        public static let defaultValue = true
+        public static let defaultValue: Bool = true
     }
 }
 
 extension String{
     public enum Empty: DefaultValue {
-        public static let defaultValue = ""
+        public static let defaultValue: String = ""
     }
     public enum Zero: DefaultValue {
-        public static let defaultValue = "0"
+        public static let defaultValue: String = "0"
     }
 }
 
 extension Int{
     public enum Zero: DefaultValue {
-        public static let defaultValue = 0
+        public static let defaultValue: Int = 0
     }
 }
 extension Double{
     public enum Zero: DefaultValue {
-        public static let defaultValue = 0
+        public static let defaultValue: Double = 0
     }
 }
 
